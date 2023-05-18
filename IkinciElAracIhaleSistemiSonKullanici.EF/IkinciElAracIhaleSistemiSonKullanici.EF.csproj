@@ -14,4 +14,10 @@
     <ProjectReference Include="..\IkinciElAracIhaleSistemiSonKullanici.Data\IkinciElAracIhaleSistemiSonKullanici.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="IkinciElAracIhaleSistemi.Entities">
+      <HintPath>..\..\IkinciElAracIhaleSistemi\IkinciElAracIhaleSistemi.Entities\bin\Debug\IkinciElAracIhaleSistemi.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

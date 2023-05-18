@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IkinciElAracIhaleSistemiSonKullanici.Core\IkinciElAracIhaleSistemiSonKullanici.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IkinciElAracIhaleSistemi.Entities">
+      <HintPath>..\..\IkinciElAracIhaleSistemi\IkinciElAracIhaleSistemi.Entities\bin\Debug\IkinciElAracIhaleSistemi.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
